@@ -1,0 +1,28 @@
+HTML Note
+---------
+Content Layer
+Presentation Layer
+Behavior Layer
+
+html extension
+.html .htm
+
+index.html is standard for website redriect page
+
+HTML Element
+------------
+    <p></p> //p tag
+    <p>Hello Html</p>
+
+<!DOCTYPE html>  this code is HTML5 code standard
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Intro</title> //browser backend Element
+    </head>
+    <body> // user see codearea
+        <h1>Hello</h1>
+
+    </body>
+</html>

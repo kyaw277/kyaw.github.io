@@ -1,0 +1,52 @@
+git lesson
+----------
+
+Git Hub - Git
+==========
+github.com ကိုသွားပြီး signup လုပ်ပြီး Account ဖောက်ပါ
+repository တစ်ခုဆောက်ပါ
+
+
+VS code - > open document folder
+Vs code - > Terminal 
+git clone https://github.com/kyaw277/kyaw277.github.io.git
+open -> document-> git.io
+
+create html file and write code in this
+
+Terminal - > git status 
+         - > git add .
+         - > git commit -m "index file add"
+         - > git config --global user.email "ayeaye@gmail.com"
+         - > git config --global user.name "kyaw277"
+         - > git push
+click sign in with browser 
+
+daily Task git command
+----------------------
+git status
+git add .
+git commit -m "message"
+git push
+
+
+
+git commit လုပ်ခဲ့တဲ့ log တွေကို ဘယ်လိုပြန်ကြည့်မလဲ 
+-------------------------------------------
+git log --oneline 
+
+ပြန်စစ်ချင်ရင် git checkout ffbb1da (log code)
+           git checkout main
+
+ပြန်သွားချင်တဲ့ Git commit ကို Final အနေနဲ့ ဘယ်လိုပြန်သွားရမလဲ
+----------------------------------------------------
+git reset --hard abc1234(log code)
+git add .
+git commit -m "Updated first commit with p tag"
+
+git push origin main --force   
+
+Final အနေနဲ့ ပြန်ပြီး Commit ပေးတာဖြစ်ပါတယ်
+
+Branch ဆောက်နည်း
+-----------------
