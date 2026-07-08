@@ -77,11 +77,35 @@
             <textarea type="message" name="message" id="message"></textarea>
             <br><br>
 
+            <label for="profile-pic">Upload Photo</label>
+            <input type="file" id="profile-pic" name="profile-pic" accept="image/*">
+            <br><br>
+
+            <label for="cv-form">Upload PDF:</label>
+            <input type="file" name="cv-form" id="cv-form" accept=".pdf">
+
             <button type="submit">Submit</button>
         </form>
     </section>
 
+    <p id="main-paragraph" class="text-blue" title="This is a tooltip">
+        This is a paragraph with global attributes.
+    </p>
 
+    <div style="background-color: lightgray; padding: 10px;">
+        This div has an inline style.
+    </div>
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Aung Aung</td>
+            <td>20</td>
+        </tr>
+    </table>
 
 
 </body>
