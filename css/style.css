@@ -54,7 +54,7 @@ body {
     font-size: 16px;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     body { 
         font-size: 14px;
         background-color: lightblue;
@@ -76,15 +76,28 @@ body {
         flex-direction: column;
     }
 }
-
+/* 
 header {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-}
+} */
 
-main {
+/* main {
     margin-top: 100px;
+} */
+
+.hero-section {
+    background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: whitesmoke;
+    padding: 50 px;
 }
 
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 { 
+    text-shadow: 2px 2px 4px gray
+}
